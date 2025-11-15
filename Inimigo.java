@@ -25,6 +25,7 @@ public class Inimigo extends Personagem {
         setInventario(new Inventario(outro.getInventario()));
     }
     
+    // Getters e Setters
     public String getTipo() { 
         return tipo; 
         

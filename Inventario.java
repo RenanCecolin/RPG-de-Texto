@@ -10,7 +10,6 @@ public class Inventario implements Cloneable {
         this.itens = new ArrayList<>();
     }
 
-    // Construtor de cópia profunda
     public Inventario(Inventario outro) {
         this.itens = new ArrayList<>();
         for (Item i : outro.itens) {

@@ -99,9 +99,6 @@ public class Historia {
         return false;
     }
 
-    // USAR ITEM, ENCONTRAR ITEM, UTILITÁRIOS (esses permanecem iguais ao da sua versão anterior)
-    // ...
-
     private void usarItem(Personagem jogador) throws IOException {
         Inventario inv = jogador.getInventario();
         if (inv.listarOrdenado().isEmpty()) {

@@ -21,6 +21,7 @@ public class Mago extends Personagem {
         setInventario(new Inventario(outro.getInventario()));
     }
     
+    // Getters e Setters
     public int getMana() { 
         return mana; 
     }

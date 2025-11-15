@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public final class Dado {
+public final class Dado { 
 
     private static final Random random = new Random();
 

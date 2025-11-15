@@ -102,7 +102,6 @@ public abstract class Personagem {
         
     }
 
-    // Adiciona XP e verifica se upou de nível
     public void ganharExperiencia(int xp) {
         setExperiencia(this.experiencia + xp);
         while (experiencia >= xpParaUpar()) {

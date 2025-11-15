@@ -18,6 +18,7 @@ public class Guerreiro extends Personagem {
         this.chanceCritico = chanceCritico;
     }
     
+    //Construtor
     public Guerreiro(Guerreiro outro) {
         this(outro.getNome(), outro.getHP(), outro.getAtaque(), outro.getDefesa(), outro.getNivel(), outro.chanceCritico);
         setInventario(new Inventario(outro.getInventario()));

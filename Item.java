@@ -23,6 +23,7 @@ public class Item implements Comparable<Item>, Cloneable {
         this(outro.nome, outro.descricao, outro.efeito, outro.quantidade);
     }
 
+    // Getters e Setters
     public String getNome() {
         return nome;
     }

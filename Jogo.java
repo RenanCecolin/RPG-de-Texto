@@ -30,6 +30,7 @@ public class Jogo {
         }
     }
 
+    // Escolha seu personagem
     private static Personagem criarPersonagem() throws IOException {
         System.out.print("Digite o nome do seu herói: ");
         String nome = in.readLine().trim();
